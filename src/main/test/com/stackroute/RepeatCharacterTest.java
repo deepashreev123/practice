@@ -6,7 +6,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class Test1Test {
+public class RepeatCharacterTest {
 
     @Before
     public void setUp() throws Exception {
@@ -17,9 +17,10 @@ public class Test1Test {
     }
 
     @Test
-    public void stringDemo() {
-        Test1 s1=new Test1();
-        String s=s1.stringDemo();
-        assertEquals("DEEPA",s);
+    public void main() {
+    }
+
+    @Test
+    public void repeatPrint() {
     }
 }

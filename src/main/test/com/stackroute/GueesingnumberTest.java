@@ -6,11 +6,10 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class AdditionTest {
+public class GueesingnumberTest {
 
     @Before
-    public void setUp() throws Exception
-    {
+    public void setUp() throws Exception {
     }
 
     @After
@@ -18,11 +17,6 @@ public class AdditionTest {
     }
 
     @Test
-    public void sum() {
-
-        Even.Addition a = new Even.Addition();
-        int n = a.sum(10,20);
-        assertEquals(30, n);
-
-    }}
-
+    public void main() {
+    }
+}

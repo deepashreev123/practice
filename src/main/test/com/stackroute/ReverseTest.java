@@ -7,9 +7,10 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class ReverseTest {
-
+    Reverse reverse;
     @Before
     public void setUp() throws Exception {
+         reverse= new Reverse();
     }
 
     @After
@@ -18,16 +19,14 @@ public class ReverseTest {
 
     @Test
     public void reverse() {
-        Reverse r1 = new Reverse();
-        int n = r1.reverse(122);
+        int n = reverse.reverseInteger(122);
         assertEquals(221, n);
     }
 
     @Test
 public void checkInt()
     {
-        Reverse r2 = new Reverse();
-        boolean n = r2.checkInt();
-    assertEquals(true,n);
+        boolean n = reverse.checkInt();
+    assertEquals(false,n);
     }
 }
